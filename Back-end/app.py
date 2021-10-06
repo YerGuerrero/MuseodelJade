@@ -13,7 +13,6 @@ app.config["DEBUG"] = True
 def get_news():
     meta = get_news()
     response = jsonify(meta)
-    print (response)
     return response
 
 dbconn = {'database': 'museojadedb',
@@ -30,7 +29,7 @@ def get_news():
 	FROM public.noticias;"""
     pg_cur.execute(sql)
     data = pg_cur.fetchall()
-    print(data)
+    #print(data)
     return data
 
 if __name__ == '__main__':
