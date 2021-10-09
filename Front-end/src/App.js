@@ -1,5 +1,7 @@
 import './App.css';
 import NewsPage from './pages/news';
+import ToursPage from './pages/tours';
+import ServicesPage from './pages/services'
 import PageContainer from "./components/pageContainer";
 
 
@@ -31,7 +33,7 @@ function App() {
               </Route>
               <Route exact path="/tours">
                 <PageContainer>
-                  <TourPage/>
+                  <ToursPage/>
                 </PageContainer>
               </Route>
               <Route exact path="/services">
