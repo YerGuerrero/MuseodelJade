@@ -111,11 +111,13 @@
   box-sizing: content-box;
   z-index: 90;
   top:0;
+  user-select: none;
 }
 .header .logoHeader{
   cursor: pointer;
   width: 230px;
   height: 79px;
+  justify-self: center;
 }
 .header .headerContent {
   width: 100%;
@@ -141,13 +143,6 @@
 .headerNav{
   width: 100%;
   margin-top: 0.5em;
-}
-
-.logo {
-  position: relative;
-  left: 0;
-  width: 182px;
-  height: 70px;
 }
 
 .header .headerbtn img{
@@ -256,10 +251,12 @@
     font: icon;
     position: absolute;
     right: 8%;
+    user-select: none;
 }
 .socialIcons img{
   width: 2em;
   margin-right: 0.4em;
+  user-select: none;
 }
 
 .insImage {
@@ -268,4 +265,5 @@
     width: 9em;
     margin-top: -1%;
     border-radius: 1em;
+    user-select: none;
 }
