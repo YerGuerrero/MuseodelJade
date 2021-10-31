@@ -47,10 +47,10 @@ function Footer(){
             <div style={{display: "inline-flex", marginTop: "3em"}}>
                 <p className="copyright">Copyright ® Museo del Jade 2021 - All rights reserved</p>
                 <div className="socialIcons">
-                    <a href="https://tecdigital.tec.ac.cr/register/?return%5furl=%2fdotlrn%2findex#/" rel = "noreferrer" target= "_blank" > <img id="facebook" src="/img/facebook.png" alt= "Facebook"/></a>
-                    <a href="https://tecdigital.tec.ac.cr/register/?return%5furl=%2fdotlrn%2findex#/" rel = "noreferrer" target= "_blank"> <img id="instagram" src="/img/instagram.png" alt= "Instagram"/></a>
-                    <a href="https://tecdigital.tec.ac.cr/register/?return%5furl=%2fdotlrn%2findex#/" rel = "noreferrer" target= "_blank"> <img id="twitter" src="/img/twitter.png" alt= "Twitter"/></a>
-                    <a href="https://tecdigital.tec.ac.cr/register/?return%5furl=%2fdotlrn%2findex#/" rel = "noreferrer" target= "_blank"> <img id="youtube" src="/img/youtube.png" alt= "Youtube"/></a>
+                    <a href="https://www.facebook.com/insmuseodeljade/?ref=hl" rel = "noreferrer" target= "_blank" > <img id="facebook" src="/img/facebook.png" alt= "Facebook"/></a>
+                    <a href="https://www.instagram.com/museodeljadecr/" rel = "noreferrer" target= "_blank"> <img id="instagram" src="/img/instagram.png" alt= "Instagram"/></a>
+                    <a href="https://twitter.com/MuseodelJadeCR" rel = "noreferrer" target= "_blank"> <img id="twitter" src="/img/twitter.png" alt= "Twitter"/></a>
+                    <a href="https://www.youtube.com/channel/UC67vHLVJfUtyC_Lik981WZw" rel = "noreferrer" target= "_blank"> <img id="youtube" src="/img/youtube.png" alt= "Youtube"/></a>
                 </div>
                 <a href="https://www.ins-cr.com/" rel = "noreferrer" target= "_blank" > <img className= "insImage" id="ins" src="/img/logo-color.jpg" alt= "INS"/></a>
             </div>

@@ -37,7 +37,6 @@ class NewsPage extends React.Component {
             <div className="container">
             {this.state!== null?
               this.state.data.map(news=>{
-                console.log(news)
                   return(
                         <div className="containerNew">
                             <h2>{news.title}</h2>

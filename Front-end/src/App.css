@@ -131,7 +131,9 @@
 .header .headerItems{
   align-self: center;
   display: inline-flex;
+  padding-inline-start: 5em;
 }
+
 .header .headerbtn{
   align-self: center;
   padding-right: 6em;
@@ -266,4 +268,310 @@
     margin-top: -1%;
     border-radius: 1em;
     user-select: none;
+}
+
+.titleExhibitions{
+    padding-top: 7em;
+    color: #303030;
+}
+
+ #gridExhibitions{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 9em 9em 9em 9em 9em;
+  justify-content: space-around;
+}
+
+.containerBtnExhibitions {
+  width: 70%;
+  height: 10em;
+  display: inline-flex;
+  justify-content: space-between;
+  
+}
+
+#btnExhibitions{
+    width: 9em;
+    height: 9em;
+    border-radius: 1em;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 2em;
+    cursor: pointer;
+}
+
+#btnExhibitions .titleBtnExhibitions{
+    background-color: #401709;
+    color: white;
+    position: absolute;
+    width: 9em;
+    height: 4em;
+    margin-top: 5em;
+    margin-left: 2.em;
+    border-radius: 1.5em;
+}
+
+.titleContainerExhibitions{
+  display: flex;
+  margin-left: 15%;
+}
+
+.btnExhibitionsSeeMore{
+  right: 11%;
+  float: right;
+  margin-top: 13em;
+  background-color: transparent;
+  border: none;
+  color: #303030;
+  cursor: pointer;
+  padding-right: -9em;
+  position: absolute;
+}
+
+
+.titleEvents{
+  padding-top: 7em;
+  color: #303030;
+}
+
+.containerEvent{
+  width: 70%;
+  height: auto;
+  background-color: white;
+  text-align-last: start;
+  color: #303030;
+}
+.info{
+  width: 100%;
+  height: auto;
+  background-color: white;
+  text-align-last: start;
+  color: #303030;
+  margin-bottom: 3em;
+  display: inline-flex;  
+}
+
+.containerEvent h2{
+  font-variant-caps: all-petite-caps;
+  padding-left: 5em;
+  color: #303030;
+}
+
+.containerEvent button{
+  right: 0;
+  float: right;
+  margin-top: 1em;
+  background-color: transparent;
+  border: none;
+  color: #303030;
+  cursor: pointer;
+  margin-right: 5em;
+}
+
+.gridEvents{
+  display: grid;
+  width: 100%;
+  margin-top: -0.2em;
+}
+.gridSubtitle{
+  display: grid;
+  width: 9em;
+  margin-left: 2em;
+  height: 8em;
+}
+
+.gridEvents span{
+  margin-left: 2em;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.gridSubtitle .subtitle{
+  font-weight: 700;
+}
+
+/*Exhibition page*/
+.containerExhibitionPage{
+  width: 70%;
+  height: auto;
+  background-color: burlywood;
+  margin-top: 10em;
+  top: 50%;
+  left: 50%;
+  transform: translate(22%, 59%);
+}
+
+.titleExhibition{
+  color: #303030;
+}
+
+.descriptionExhibition{
+  color: #303030;
+  width: 80%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(12%, 1%);
+  line-height: 1.7;
+  text-align: justify;
+}
+
+#gridArtWork{
+  width: 60%;
+  height: auto;
+  margin: auto;
+  margin-top: 3em;
+  display: grid;
+  grid-template-columns: 9em 9em 9em 9em 9em;
+  justify-content: space-around;
+}
+
+.containerBtnArtWork {
+  width: 60%;
+  height: 10em;
+  display: inline-flex;
+  justify-content: space-around;
+  margin-right: 10%;
+ 
+}
+
+.titleBtnArtWork{
+  color: white;
+  position: absolute;
+  width: 9em;
+  height: 4em;
+  margin-top: 0em;
+  margin-left: 2.em;
+  border-radius: 1.5em;
+}
+
+.imageBtnArtWork{
+  width: 8em;
+}
+
+/*Style art work*/
+
+.imageArtWork{
+  width: 30em;
+  padding-top: 0.8em;
+  padding-bottom: 0.5em;
+  border-radius: 2.5em;
+}
+
+.containerImgArtWork{
+  margin-top: 13em;
+  border-radius: 0em 0em 3em 3em;
+  background-color: #324D51;
+  height: 20em;
+}
+
+.ArtWorkTitle{
+  margin-bottom: 1.5em;
+  font-size: x-large;
+}
+
+.ArtWorkContainer{
+  margin-top: 3em;
+  text-align: justify;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(12%, 1%);
+  
+}
+
+.ArtWorkDesc{
+  line-height: 1.7;
+}
+
+/*Style del tour*/
+.titleTours{
+  padding-top: 7em;
+  color: #303030;
+  user-select: none;
+  font-size: x-large;
+}
+
+.gridBtnTours{
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 1em;
+  display: grid;
+  grid-template-columns: 9em 9em 9em 9em 9em;
+  justify-content: space-around;
+}
+
+.btnTour{
+  margin-top: 2em;
+  width: 8em;
+  height: 8em;
+  border-radius: 1.5em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.titleBtnTour{
+  background-color: #324D51;
+  color: white;
+  position: absolute;
+  width: 8em;
+  height: auto;
+  margin-top: 4em;
+  border-radius: 1.5em;
+  user-select: none;
+  align-self: center;
+}
+
+.imageTour{
+  width: 21em;
+  padding-top: 0.8em;
+  padding-bottom: 0.5em;
+  border-radius: 2.5em;
+}
+
+.containerImgTour{
+  margin-top: 13em;
+  border-radius: 0em 0em 3em 3em;
+  background-color: #324D51;
+  height: 20em;
+}
+
+.tourTitle{
+  margin-bottom: 1.5em;
+  font-size: x-large;
+}
+
+.tourContainer{
+  margin-top: 3em;
+  text-align: justify;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(12%, 1%);
+}
+
+.tourDesc{
+  line-height: 1.7;
+}
+
+.btnTourUrl{
+  background-color: #324D51;
+  border: none;
+  color: white;
+  padding: 12px 60px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 1.2em;
+  box-shadow: 2px 2px 5px grey;
+  margin: 3em 3em;
+  cursor: pointer;
+  font-weight: bold;
 }
