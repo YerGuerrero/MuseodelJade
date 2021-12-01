@@ -160,13 +160,14 @@
   background-color: white;
   height: 37em;
   position: absolute;
-  top: 57%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 3em;
   color: #303030;
   box-shadow: 0px 3px 10px 0px #303030;
   visibility: hidden;
+  position: fixed;
 }
 
 .modalNews #text{
@@ -508,8 +509,8 @@
 
 .btnTour{
   margin-top: 2em;
-  width: 8em;
-  height: 8em;
+  width: 9em;
+  height: 9em;
   border-radius: 1.5em;
   background-position: center;
   background-size: cover;
@@ -522,10 +523,11 @@
   background-color: #324D51;
   color: white;
   position: absolute;
-  width: 8em;
-  height: auto;
-  margin-top: 4em;
+  width: 9em;
+  height: 4em;
+  margin-top: 5em;
   border-radius: 1.5em;
+  -webkit-user-select: none;
   user-select: none;
   align-self: center;
 }
@@ -575,3 +577,289 @@
   cursor: pointer;
   font-weight: bold;
 }
+
+/*servicios*/
+
+.services{
+  padding-top: 12em;
+}
+.services h2{
+  text-align: left;
+  margin-inline-start: 17%;
+  margin-bottom: 1.5em;
+}
+
+.containerServices{
+  width: 77.2%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 9.8em 9.8em 9.8em 9.8em ;
+  justify-content: space-around;
+}
+
+.imageServices{
+  border-radius: inherit;
+  width: 50%;
+  height: 6em;
+  background-image: linear-gradient(#402921, #6D2718);
+  text-align: center;
+}
+
+.imageService{
+  width: 2em;
+  width: 2.5em;
+    margin-top: 2em;
+    height: 2.5em;
+}
+
+.servicesTitle{
+  color: #ffffff;
+  font-size: 16px;
+  text-align: left;
+  width: 42%;
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  font-weight: 600;
+}
+
+.btnServices{
+  width: 16em;
+  height: 6em;
+  margin-bottom: 3em;
+  background-color: #925f54;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 1em;
+}
+
+/*           Tiquetes            */
+.DataContainer{
+  display: inline-flex;
+  gap: 12em;
+}
+
+.dataTicketsContainer{
+  display: inline-grid;
+}
+
+.titleDataContainer{
+  display: grid;
+  align-items: center;
+  justify-items: left;
+}
+
+.dataTickets button {cursor:pointer; }
+.dataTickets{
+  margin:3px;
+  display: inline-flex;
+  align-items: center;
+}
+.minus, .plus{
+  width:32px;
+  height:32px;
+  font-size: x-large;
+  color: white;
+  background:#6D2718;
+  border-radius:16px;
+  border:1px solid #6D2718;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.dataTickets h2{
+  text-align: center;
+  font-size: 26px;
+}
+
+.DataContainer input{
+  height:34px;
+  width: 70px;
+  text-align: center;
+  font-size: 15px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+form{
+  display: inline-grid;  
+  width: 70%;
+  justify-items: center;
+}
+
+.userInfo{
+  display: grid;
+  margin-top: 4rem;
+}
+
+.dataTickets input[type=number]{
+  margin: 0.3rem;
+}
+
+.dataTicketsContainer span{
+  margin-right: 0.3rem;
+}
+
+.userInfo input{
+  height:34px;
+  width: 400px;
+  margin: 0.5rem;
+  text-align: center;
+  font-size: 15px;
+  border:1px solid #ddd;
+  border-radius:4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input[type=submit]{
+  width: 250px;
+  margin-top: 3em;
+  background-color: #6D2718;
+  border: none;
+  color: white;
+  padding: 14px 45px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 1.2em;
+  box-shadow: 2px 2px 5px #6D2718;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.totalStyle{
+  display: inline-flex;
+  font-size: 20px;
+  padding-right: 1em;
+  padding-left: -8em;
+  font-weight: bolder;
+  margin-top: 2em;
+}
+
+.totalInput{
+  width: 5em;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+  text-align: center;
+}
+
+.modalTickets{
+  z-index: 91;
+  width: 57%;
+  background-color: white;
+  height: 20em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 2em;
+  color: #303030;
+  box-shadow: 0px 3px 10px 0px #303030;
+  visibility: hidden;
+}
+ 
+.modalTickets #text{
+  width: 84%;
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 10%;
+}
+ 
+.modalTickets h1{
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2em;
+  font-size: x-large;
+}
+ 
+.modalTickets p {
+  width: 98%;
+  line-height: 1.7;
+  text-align-last: auto;
+}
+
+.imageINS{
+  width: 11em;
+}
+
+.btnSaveModalTicket{
+  margin-left: 63%;
+  margin-top: 2%;
+  border-radius: 1em;
+  font-size: larger;
+  border: none;
+  height: 40px;
+  font-weight: bold;
+  text-align-last: center;
+  background-color: #6D2718;
+  color: white;
+  position: fixed;
+  padding-right: 15px;
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.containerModalTicket{
+  display: inline-flex;
+}
+
+/* Home */
+.homeContainer{
+  padding-top: 12em;
+}
+
+.segment{
+  height: 15em;
+}
+
+.textContainer{
+  width: 28%;
+  height: inherit;
+  border-radius: 0 3em 3em 0;
+  align-self: left;
+  color: #ffffff;
+}
+
+.textContainer2{
+  width: 28%;
+  height: inherit;
+  border-radius: 3em 0 0 3em;
+  float: right;
+  color: #ffffff;
+}
+
+.textSegment{
+  width: 57%;
+  margin: auto;
+  padding-top: 3.2em;
+  text-align: left;
+}
+
+.descriptionText{
+  font-size: 0.8em;
+}
+
+.covid{
+  margin-top: 5em;
+  display: inline-flex;
+  justify-content: space-around;
+  width: 65%;
+}
+
+.imgCovid{
+  height: 12em;
+  width: 12em;
+  border-radius: 5em;
+}
+
+.descCovid{
+  width: 40%;
+  font-size: 13px;
+  text-align: justify;
+}
+
+

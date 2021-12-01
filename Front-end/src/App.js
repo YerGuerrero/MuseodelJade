@@ -9,6 +9,8 @@ import AllExhibitionPage from './pages/allExhibition';
 import EventsPage from './pages/events';
 import ArtWorkPage from './pages/artWork';
 import TourPage from './pages/tour';
+import TicketsPage from './pages/tickets';
+import HomePage from './pages/home';
 import {
   BrowserRouter as Router,
   Switch,
@@ -32,9 +34,7 @@ function App() {
               </Route>
               <Route exact path="/">
                 <PageContainer>
-                  <div className="App">
-                    <h1>Pagina principal</h1>
-                  </div>
+                  <HomePage/>
                 </PageContainer>
               </Route>
               <Route exact path="/tours">
@@ -80,6 +80,11 @@ function App() {
               <Route exact path="/tour">
                 <PageContainer>
                   <TourPage/>
+                </PageContainer>
+              </Route>
+              <Route exact path="/tickets">
+                <PageContainer>
+                  <TicketsPage/>
                 </PageContainer>
               </Route>
           </Switch>

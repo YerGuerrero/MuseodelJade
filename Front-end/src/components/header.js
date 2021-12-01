@@ -29,6 +29,10 @@ const Header = () => {
         history.push("/exhibitions");
     };
 
+    const handleClickTickets = () => {
+        history.push("/tickets");
+    };
+
     useEffect(()=>{
         const callback = (e) => {  
             window.localStorage.setItem("detail",JSON.stringify( e.detail)); 
@@ -67,7 +71,7 @@ const Header = () => {
                                 Eventos
                             </span>
                         </li>
-                        <li className="headerbtn" onClick={handleClickNews}>
+                        <li className="headerbtn" onClick={handleClickTickets}>
                             <img  src="/img/tiquetes.png" alt="Tiquetes" />
                             <span>
                                 Tiquetes
@@ -96,7 +100,7 @@ const Header = () => {
                             <span>
                                 Servicios
                             </span>
-                        </li>
+                        </li>                      
                     </ul>
                 </div>
                 

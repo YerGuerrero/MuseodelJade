@@ -18,11 +18,10 @@ class ArtWorkPage extends React.Component {
 
     render() {
         this.artWork = JSON.parse(window.localStorage.getItem("artWork"));
-
         return (
             <div>
                 <div className='containerImgArtWork'>
-                    <img className="imageArtWork" src="/img/armadillo.png" alt="ImagenObra"/>
+                    <img className="imageArtWork" src={`/img/${this.artWork.imageURL} `}  alt="ImagenObra"/>
                 </div>
                 <div className= "ArtWorkContainer">
                     <h1 className="ArtWorkTitle">{this.artWork.title}</h1>

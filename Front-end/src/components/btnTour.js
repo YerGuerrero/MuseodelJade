@@ -12,7 +12,7 @@ const BtnTour = (props) => {
     return (
         <div id={props.id} className='btnTour' style={{ backgroundImage: `url(/img/${props.image})` }} onClick={handleClickTour}>
             <div className="titleBtnTour">
-                <p style={{ marginBottom: 8, marginTop: 8, fontWeight: 700, fontSize: "small" }}>{props.title}</p>
+                <p style={{ marginBottom: 8, marginTop: 8, fontWeight: 600, fontSize: 12 }}>{props.title}</p>
             </div>
         </div>
     );

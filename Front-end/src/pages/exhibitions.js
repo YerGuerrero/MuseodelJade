@@ -48,7 +48,7 @@ class ExhibitionsPage extends React.Component {
                 }
               </div>
               
-            {window.localStorage.getItem("index")>5?<button className="btnExhibitionsSeeMore" onClick={()=>{document.dispatchEvent(new CustomEvent('ExhibitionPage', {detail: {type: "permanente", dataState: this.state}}))}}>Ver más <FontAwesomeIcon icon={faArrowRight}/></button>:<div/>}
+            {window.localStorage.getItem("indexTemp")>5?<button className="btnExhibitionsSeeMore" onClick={()=>{document.dispatchEvent(new CustomEvent('ExhibitionPage', {detail: {type: "permanente", dataState: this.state}}))}}>Ver más <FontAwesomeIcon icon={faArrowRight}/></button>:<div/>}
             </div>
             
             <h2 className="titleContainerExhibitions" style={{marginTop: "3em"}}> Temporales</h2>
